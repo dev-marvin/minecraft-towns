@@ -1,0 +1,12 @@
+database:
+  hostname: 'localhost'
+  database: 'test'
+  username: 'root'
+  password: ''
+  port: 3306
+  dataSourceProperties:
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
+
+price-to-create-town: 1000

@@ -1,0 +1,134 @@
+# TOWN EVENT
+town-join: '&aYou have joined the town of &b{town-name}&a.'
+town-left: '&cYou have left the town of &b{town-name}&c.'
+chat-message: '&8[{town-name}] &b{player}: &7{message}'
+abandon-claim: '&cYou have abandoned your claim.'
+
+# TOWN COMMAND
+town-usage: '&cUse: /town <name>'
+town-teleported: '&aYou have been teleported to &e{town-name}&a.'
+
+# ACCEPT COMMAND
+accept-usage: '&cUse: /town accept <name>'
+accept-error: '&cYou are not a pending member of this town.'
+accept-log: '&f{player} &ahas joined the town. &7{date}'
+accept-target: '&a{player} has joined the town.'
+accept-success: '&aYou have accepted the invitation to join &e{town-name}&a.'
+
+# CHAT COMMAND
+chat-error: '&cThe chat already in current mode.'
+chat-log: '&f{player} &ahas changed the chat mode to &e{status}&a.'
+chat-success: '&aYou have changed the chat mode to &e{status}&a.'
+
+# CREATE COMMAND
+create-usage: '&cUse: /town create <name>'
+create-error: '&cThe town name must contain between 1 and 10 (or 16) characters.'
+create-already-member: '&cYou are already a member of one town.'
+create-money-error: '&cYou do not have enough money to create a town.'
+create-log: '&f{player} &ahas created the town. &7{date}'
+create-target: '&aThe server has new town: &e{town-name}&a.'
+create-success: '&aYou have created the town &e{town-name}&a.'
+
+# DECLINE COMMAND
+decline-usage: '&cUse: /town decline <name>'
+decline-error: '&cYou are not a pending member of this town.'
+decline-log: '&f{player} &ahas declined the invitation to join the town. &7{date}'
+decline-success: '&aYou have declined the invitation to join &e{town-name}&a.'
+
+# DELETE COMMAND
+delete-usage: '&cUse: /town delete <name>'
+delete-error: '&cYou have not confirmed a town deletion.'
+delete-confirm: '&aAre you sure you want to delete town &e{town-name}&a? Type &e/town delete confirm&a.'
+delete-target: '&cThe town &e{town-name}&c has been deleted.'
+delete-success: '&aYou deleted the town called &e{town-name}&a.'
+
+# DEMOTE COMMAND
+demote-usage: '&cUse: /town demote <name>'
+demote-error: '&cThe player is already an member.'
+demote-log: '&e{player} has demoted {target} to member. &7{date}'
+demote-target: '&aYou have been demoted to member of &e{town-name}&a.'
+demote-success: '&aYou have demoted {target} to member.'
+
+# DEPOSIT COMMAND
+deposit-usage: '&cUse: /town deposit <amount>'
+deposit-log: '&f{player} &ahas deposited &e{amount}&a to the town bank. &7{date}'
+deposit-target: '&a{player} have deposited &e{amount}&a to the town bank.'
+deposit-success: '&aYou have deposited &e{amount}&a to the town bank.'
+
+# INFO COMMAND
+info-usage: '&cUse: /town info <name>'
+info-success:
+  - '&eInfo for &a{town-name}&e:'
+  - '&eOwner: &a{town-owner}'
+  - '&eOffices: &a{town-offices}'
+  - '&eMembers: &a{town-members}'
+  - '&eBalance: &a{balance}'
+
+# INVITE COMMAND
+invite-usage: '&cUse: /town invite <name>'
+invite-pending: '&cThe player already has a pending invitation.'
+invite-member: '&cYou cannot invite a member.'
+invite-citizen: '&cYou cannot invite a citizen.'
+invite-log: '&6{player} invited {target} to join the town. &7{date}'
+invite-target: '&aYou have been invited to join &e{town-name}&a.'
+invite-success: '&aYou have invited &e{target} &ato join the town.'
+
+# KICK COMMAND
+kick-usage: '&cUse: /town kick <name>'
+kick-log: '&c{player} kicked {target} from the town. &7{date}'
+kick-error: '&cThe rank of the player is too high.'
+kick-target: '&cYou have been kicked from &e{town-name}&c.'
+kick-success: '&aYou have kicked &e{target} &afrom the town.'
+
+# LEAVE COMMAND
+leave-log: '&f{player} &ahas left the town. &7{date}'
+leave-error: '&cYou are not a member of this town.'
+leave-leader: '&cYou cannot leave the town because you are the leader.'
+leave-target: '&a{player} has left the town.'
+leave-success: '&aYou have left the town.'
+
+# LOGS USAGE
+logs-usage: '&cUse: /town logs <name>'
+logs-success: '&e{town-name}&a logs: &7[{page}/{total}]'
+
+# PROMOTE COMMAND
+promote-usage: '&cUse: /town promote <name>'
+promote-error: '&cThe player is already an officer.'
+promote-log: '&b{player} has promoted {target} to officer. &7{date}'
+promote-target: '&aYou have been promoted to an office member in {town-name}.'
+promote-success: '&aThe {target} has been promoted to an office member.'
+
+# RENAME COMMAND
+rename-usage: '&cUse: /town rename <name>'
+rename-error: '&cThe name of town must contain between 1 and 16 characters.'
+rename-log: '&f{player} &ahas renamed the town to &e{name}&a. &7{date}'
+rename-target: '&aThe town has been renamed to &e{name}&a.'
+rename-success: '&aYou have renamed the town to &e{name}&a.'
+
+# SET SPAWN COMMAND
+set-spawn-log: '&f{player} &ahas set the town spawn. &7{date}'
+set-spawn-success: '&aYou have set the town spawn.'
+
+# TOP COMMAND
+top-usage: '&cUse: /town top <page>'
+top-success: '&eTown top: &7[{page}/{total}]'
+top-message: '&e{rank}. &a{town-name} &e{balance}'
+
+# WITHDRAW COMMAND
+withdraw-usage: '&cUse: /town withdraw <amount>'
+withdraw-error: '&cYou do not have enough money in the town bank.'
+withdraw-log: '&f{player} &ahas withdrew &e{amount}&a from the town bank. &7{date}'
+withdraw-target: '&a{player} has withdrawn &e{amount}&a from the town bank.'
+withdraw-success: '&aYou have withdrawn &e{amount}&a from the town bank.'
+
+# OTHERS
+town-not-exists: '&cA town with this name does not exist.'
+town-already-exists: '&cA town with this name already exists.'
+no-area-claim: '&cYou do not have an area claim.'
+no-owner-claim: '&cYou are not the owner of this claim.'
+no-permission: '&cYou do not have permission to do that.'
+no-player: '&cPlayer not found.'
+no-self: '&cYou cannot invite yourself.'
+no-member: '&cThe player is not a member of your town.'
+no-money: '&cYou not have enough money.'
+invalid-number: '&cThe amount must be a number.'

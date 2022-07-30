@@ -1,0 +1,5 @@
+name: MCPartyTowns
+version: 1.0-SNAPSHOT
+main: me.tuskdev.towns.TownsPlugin
+depend: [GriefPrevention, Vault, PlaceholderAPI]
+api-version: 1.19
